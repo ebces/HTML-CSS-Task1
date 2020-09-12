@@ -1,6 +1,6 @@
 main {
     background-color: rgba(204, 204, 204, 0.4);
-    padding-top: 20px;
+    padding: 20px 10px 0 10px;
     font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -9,19 +9,19 @@ h1 {
     font-size: 40px;
 }
 
-h1+p {
+h1 + p {
     text-align: center;
     font-size: 15px;
 }
 
 .photoWithDescription {
-    width: 98%;
+    width: 99%;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 5px;
 }
 
-.photoWithDescription>p {
+.photoWithDescription > p {
     text-align: center;
     margin: 15px;
     line-height: 25px;
@@ -43,16 +43,23 @@ h2 {
 ul {
     max-width: 550px;
     margin: 0 auto;
-    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+.year {
+    font-weight: bold;
 }
 
 blockquote {
+    margin-left: 0;
+}
+
+.quote {
     max-width: 550px;
     margin: 50px auto;
     font-style: italic;
 }
 
-main>p:last-child {
+.recomendation {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
