@@ -9,7 +9,7 @@ h1 {
     font-size: 40px;
 }
 
-h1 + p {
+.titleDescription {
     text-align: center;
     font-size: 15px;
 }
@@ -34,8 +34,9 @@ h1 + p {
     max-width: 98%;
 }
 
-h2 {
+#tribute-info {
     font-size: 18px;
+    font-weight: bold;
     text-align: center;
     margin: 50px 0;
 }
